@@ -13,5 +13,8 @@
   "rulesetFile": "rulesets/base.ruleset.json",
   "doNotSignApps": true,
   "testFolders": [],
-  "bcptTestFolders": []
+  "bcptTestFolders": [],
+  "preprocessorSymbols": [
+    "MAIN_REPO_DRIFT"
+  ]
 }
