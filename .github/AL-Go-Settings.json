@@ -1,5 +1,6 @@
 {
-  "$schema": "https://raw.githubusercontent.com/microsoft/AL-Go-Actions/v9.2/.Modules/settings.schema.json",
+  "$schema": "https://raw.githubusercontent.com/aholstrup1/AL-Go/aholstrup1-review-workitem-647482/Actions/.Modules/settings.schema.json",
   "type": "AppSource App",
-  "templateUrl": "https://github.com/microsoft/AL-Go-AppSource@main"
+  "templateUrl": "https://github.com/aholstrup1/AL-Go@aholstrup1-review-workitem-647482",
+  "templateSha": "2d5ad264e6a5e30f64adf6e5f75d57b42374c6d5"
 }
