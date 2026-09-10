@@ -1,4 +1,4 @@
-pageextension 100000 "TP Core Customer List Ext" extends "Customer List"
+pageextension 1000000 "TP Core Customer List Ext" extends "Customer List"
 {
     trigger OnOpenPage();
     begin
@@ -9,7 +9,7 @@ pageextension 100000 "TP Core Customer List Ext" extends "Customer List"
         CorePublicApi: Codeunit "TP Core Public Api";
 }
 
-codeunit 100001 "TP Core Public Api"
+codeunit 1000001 "TP Core Public Api"
 {
     procedure GetGreeting(): Text
     begin

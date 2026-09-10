@@ -1,4 +1,4 @@
-pageextension 100010 "TP Consumer Customer List Ext" extends "Customer List"
+pageextension 1000010 "TP Consumer Customer List Ext" extends "Customer List"
 {
     trigger OnOpenPage();
     begin

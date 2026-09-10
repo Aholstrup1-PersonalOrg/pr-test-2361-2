@@ -1,4 +1,4 @@
-pageextension 100020 "TP Other Vendor List Ext" extends "Vendor List"
+pageextension 1000020 "TP Other Vendor List Ext" extends "Vendor List"
 {
     trigger OnOpenPage();
     begin

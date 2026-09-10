@@ -3,13 +3,14 @@
   "name": "Core",
   "publisher": "TestPublisher",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "brief": "Core library app for incremental build validation.",
+  "description": "Provides the shared Core API used by the Consumer app during incremental build end-to-end tests.",
+  "privacyStatement": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2/blob/main/README.md",
+  "EULA": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2/blob/main/README.md",
+  "help": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2/blob/main/README.md",
+  "url": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2",
+  "logo": "logo.png",
+  "contextSensitiveHelpUrl": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2/blob/main/README.md",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
@@ -21,11 +22,12 @@
   },
   "idRanges": [
     {
-      "from": 100000,
-      "to": 100009
+      "from": 1000000,
+      "to": 1000009
     }
   ],
   "features": [
-    "NoImplicitWith"
+    "NoImplicitWith",
+    "TranslationFile"
   ]
 }

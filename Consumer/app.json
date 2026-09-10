@@ -3,13 +3,14 @@
   "name": "Consumer",
   "publisher": "TestPublisher",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "brief": "Consumer app for incremental build validation.",
+  "description": "Consumes the shared Core API so pull request builds can verify dependency-aware recompilation and baseline reuse.",
+  "privacyStatement": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2/blob/main/README.md",
+  "EULA": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2/blob/main/README.md",
+  "help": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2/blob/main/README.md",
+  "url": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2",
+  "logo": "logo.png",
+  "contextSensitiveHelpUrl": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2/blob/main/README.md",
   "dependencies": [
     {
       "id": "0849fe61-7625-4396-80ac-98d13a7f3e79",
@@ -28,11 +29,12 @@
   },
   "idRanges": [
     {
-      "from": 100010,
-      "to": 100019
+      "from": 1000010,
+      "to": 1000019
     }
   ],
   "features": [
-    "NoImplicitWith"
+    "NoImplicitWith",
+    "TranslationFile"
   ]
 }

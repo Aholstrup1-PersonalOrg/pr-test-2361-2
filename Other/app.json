@@ -3,13 +3,14 @@
   "name": "Other",
   "publisher": "TestPublisher",
   "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "brief": "Independent app for incremental build validation.",
+  "description": "Provides an unrelated build input so tests can prove when unchanged binaries are reused from the baseline instead of being rebuilt.",
+  "privacyStatement": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2/blob/main/README.md",
+  "EULA": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2/blob/main/README.md",
+  "help": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2/blob/main/README.md",
+  "url": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2",
+  "logo": "logo.png",
+  "contextSensitiveHelpUrl": "https://github.com/Aholstrup1-PersonalOrg/pr-test-2361-2/blob/main/README.md",
   "dependencies": [],
   "screenshots": [],
   "platform": "1.0.0.0",
@@ -21,11 +22,12 @@
   },
   "idRanges": [
     {
-      "from": 100020,
-      "to": 100029
+      "from": 1000020,
+      "to": 1000029
     }
   ],
   "features": [
-    "NoImplicitWith"
+    "NoImplicitWith",
+    "TranslationFile"
   ]
 }
