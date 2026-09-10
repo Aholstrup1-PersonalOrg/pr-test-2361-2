@@ -1,0 +1,31 @@
+{
+  "id": "de681af1-c395-4417-8d77-577768837f88",
+  "name": "Other",
+  "publisher": "TestPublisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "22.0.0.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "idRanges": [
+    {
+      "from": 100020,
+      "to": 100029
+    }
+  ],
+  "features": [
+    "NoImplicitWith"
+  ]
+}

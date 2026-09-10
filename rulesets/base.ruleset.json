@@ -1,0 +1,6 @@
+{
+  "name": "Baseline test ruleset",
+  "description": "Minimal ruleset for incremental build E2E validation.",
+  "includedRuleSets": [],
+  "rules": []
+}

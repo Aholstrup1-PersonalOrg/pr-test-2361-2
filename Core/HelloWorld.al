@@ -1,11 +1,34 @@
-// Welcome to your new AL extension.
-// Remember that object names and IDs should be unique across all extensions.
-// AL snippets start with t*, like tpageext - give them a try and happy coding!
-
-pageextension 100000 CustomerListExt extends "Customer List"
+pageextension 100000 "TP Core Customer List Ext" extends "Customer List"
 {
     trigger OnOpenPage();
     begin
-        Message('App published: Hello world');
+        Message(CorePublicApi.GetGreeting());
+    end;
+
+    var
+        CorePublicApi: Codeunit "TP Core Public Api";
+}
+
+codeunit 100001 "TP Core Public Api"
+{
+    procedure GetGreeting(): Text
+    begin
+        exit(GetBaseGreeting() + GetConditionalSuffix());
+    end;
+
+    local procedure GetBaseGreeting(): Text
+    begin
+        exit('Core ready');
+    end;
+
+    local procedure GetConditionalSuffix(): Text
+    begin
+#if MAIN_REPO_DRIFT
+        exit(' (repo drift enabled)');
+#elif PR_ONLY_SYMBOL
+        exit(' (pr settings enabled)');
+#else
+        exit('');
+#endif
     end;
 }

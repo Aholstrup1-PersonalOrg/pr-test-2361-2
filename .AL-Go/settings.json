@@ -1,10 +1,17 @@
 {
   "$schema": "https://raw.githubusercontent.com/aholstrup1/AL-Go/aholstrup1-review-workitem-647482/Actions/.Modules/settings.schema.json",
   "country": "us",
+  "artifact": "https://bcartifacts-exdbf9fwegejdqak.b02.azurefd.net/sandbox/28.5.54151.54491/us",
   "appSourceCopMandatoryAffixes": [
-    "<affix>"
+    "TP"
   ],
-  "appFolders": [],
+  "appFolders": [
+    "Core",
+    "Consumer",
+    "Other"
+  ],
+  "rulesetFile": "rulesets/base.ruleset.json",
+  "doNotSignApps": true,
   "testFolders": [],
   "bcptTestFolders": []
 }
