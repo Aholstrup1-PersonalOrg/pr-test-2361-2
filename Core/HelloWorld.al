@@ -16,6 +16,11 @@ codeunit 1000001 "TP Core Public Api"
         exit(GetBaseGreeting() + GetConditionalSuffix());
     end;
 
+    procedure GetAdvancedGreeting(): Text
+    begin
+        exit(GetGreeting() + ' / advanced');
+    end;
+
     local procedure GetBaseGreeting(): Text
     begin
         exit('Core ready');
@@ -32,3 +37,4 @@ codeunit 1000001 "TP Core Public Api"
 #endif
     end;
 }
+
